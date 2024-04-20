@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "engines": {
-    "node": "14.x"
-  },
+  "type":"module",
   "scripts": {
     "test": "jest",
     "start": "node app.js"
