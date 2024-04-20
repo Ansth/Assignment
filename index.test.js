@@ -5,7 +5,7 @@
 
 //test when entering the data in the database for (POST /add)
 const supertest = require('supertest');
-const app = require('./app.js');
+const app = require('./index.js');
 
 describe("POST /add", () => {
     describe("all details are there", () => {
